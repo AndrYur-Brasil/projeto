@@ -1,0 +1,112 @@
+*{
+  padding: 0%;
+
+  margin:0%;
+
+  box-sizing: border-box;
+}
+
+body{
+
+  height: 100%;
+  width: 100%;
+}
+
+/*area do cabeçalho que esta dentro da tag header*/
+#cabecalho{
+
+  height: 95px;
+  width: 100%;
+  background-color: #5a0f19; 
+  position:static;
+
+}
+
+#menu{
+
+  float: right;
+  width: 80%;
+  padding:  2.5% 0% 1% 15%;
+
+}
+#menu li{
+  float: left;
+}
+
+
+#menu a {
+
+  padding: 0.4em 0.7em;
+  font-size: 120%;
+  display:block;
+}
+
+a{
+  color: #ebdacc;
+  text-decoration: none;
+}
+
+ul{
+
+  list-style: none;
+}
+
+#pesquisar{
+  padding-top: 1%;
+}
+
+footer{
+
+  width: 100%;
+}
+
+
+/*Are do artigo principal onde estarão os principais pdf de livros, mangas e hqs */
+
+main{
+
+ 
+  
+  /*imagem de fundo*/
+  background-image: url(../img/Clinical\ Psychology.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+
+div{
+
+  margin-left: 60px;
+  margin-top: 35px;
+  width: 200px;
+  height:200px;
+  border: #8a3119 solid 20px;
+  display:inline-block;
+  background-color: #ebdacc ;
+}
+
+@media screen and (max-width:500px){
+  
+  header{
+
+    padding-right: 30px;
+  }
+
+  main{
+
+    padding-top: 45px;
+  }
+  div{
+
+    color:#5a0f19;
+    margin-left: 125px;
+    margin-top: 55px;
+    display:block;
+  }
+
+  a{
+
+    color:black;
+  }
+}
